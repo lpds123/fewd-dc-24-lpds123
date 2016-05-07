@@ -1,5 +1,8 @@
 body {
-
+      background: #FFE;
+      border: 5px black;
+      margin: 0;
+      padding: 10px;
 }
 
 .commonstyles a {
@@ -14,18 +17,33 @@ body {
 }
 
 .commonstyles h1 {
+    font-size: 40px;
+    font-family: georgia;
+    font color: black;
+    font-weight: bolder;
 
 }
 
 .commonstyles h2 {
+    font-size: 35px;
+    font-family: georgia;
+    font color: blue;
+    font-weight: bold;
+
 }
 
 .commonstyles h3 {
-  margin-top: 42px;
+    margin-top: 42px;
+    font-size: 30px;
+    font-family: georgia;
+    font color: blue;
+    font-style: italic;
 }
 
 .commonstyles h4 {
   margin-bottom: 0;
+  font-size: 25px;
+  font-family: georgia;
 }
 
 .commonstyles p {
@@ -51,12 +69,13 @@ body {
   margin: 30px 0;
 }
 
-.commonstyles img {
-  margin-left: 20px;
-  margin-bottom: 20px;
-  border: 1px solid #222222;
-  padding: 5px;
-  text-align: center
+img {
+    margin-left: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: right;
 }
 
 .commonstyles img[alt] {
