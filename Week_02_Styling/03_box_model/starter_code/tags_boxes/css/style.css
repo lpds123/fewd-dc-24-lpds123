@@ -1,0 +1,13 @@
+
+h1{
+	background-color: red;
+	padding: 30px;
+	border:black solid;
+}
+
+p{
+	background: blue;
+	color: white;
+	padding: 60px;
+	border: 4px dotted black;
+}
